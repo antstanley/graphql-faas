@@ -1,5 +1,5 @@
 import commonjs from 'rollup-plugin-commonjs'
-import nodeResolve from 'rollup-plugin-node-resolve'
+import resolve from 'rollup-plugin-node-resolve'
 
 export default {
   input: 'src/index.js',
@@ -8,16 +8,10 @@ export default {
     format: 'cjs'
   },
   plugins: [
-    nodeResolve({
-      module: true,
-      jsnext: true,
+    resolve({
+      module: false,
       main: true
     }),
-
-    commonjs({
-      include: 'node_modules/**',
-      ignoreGlobal: false,
-      sourceMap: true
-    })
+    commonjs()
   ]
 }

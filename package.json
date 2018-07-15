@@ -2,7 +2,7 @@
   "name": "graphql-faas",
   "version": "0.0.1",
   "description": "Simple wrapper module to run Apollo GraphQL Server on a FaaS platform",
-  "main": "index.js",
+  "main": "dist/index.js",
   "directories": {
     "test": "tests"
   },
@@ -18,17 +18,16 @@
     "faas",
     "lambda",
     "azure",
-    "functions",
-    "azure",
+    "google",
     "functions",
     "gcp",
     "google",
     "cloud",
-    "google",
-    "cloud",
-    "functions",
-    "azure",
-    "functions"
+    "aws",
+    "amazon",
+    "apache",
+    "openwhisk",
+    "ibm"
   ],
   "author": "A. Stanley",
   "license": "MIT",
