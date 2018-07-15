@@ -1,0 +1,44 @@
+{
+  "name": "graphql-faas",
+  "version": "0.0.1",
+  "description": "Simple wrapper module to run Apollo GraphQL Server on a FaaS platform",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "tape"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/antstanley/graphql-faas.git"
+  },
+  "keywords": [
+    "graphql",
+    "faas",
+    "lambda",
+    "azure",
+    "functions",
+    "azure",
+    "functions",
+    "gcp",
+    "google",
+    "cloud",
+    "google",
+    "cloud",
+    "functions",
+    "azure",
+    "functions"
+  ],
+  "author": "A. Stanley",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/antstanley/graphql-faas/issues"
+  },
+  "homepage": "https://github.com/antstanley/graphql-faas#readme",
+  "dependencies": {
+    "apollo-server-core": "^2.0.0-rc.8",
+    "graphql": "^14.0.0-rc.2",
+    "graphql-tools": "^3.0.5"
+  }
+}
